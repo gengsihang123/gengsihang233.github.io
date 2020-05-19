@@ -1,0 +1,13 @@
+package demo;
+
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Singer {
+    public String song(String sname){
+        System.out.println("唱一首歌"+sname);
+        String splace="大连";
+        return splace;
+    }
+}
